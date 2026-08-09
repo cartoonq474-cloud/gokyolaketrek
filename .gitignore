@@ -1,0 +1,28 @@
+node_modules
+.next
+out
+dist
+.turbo
+*.log
+.DS_Store
+.env*.local
+.playwright-mcp
+tsconfig.tsbuildinfo
+
+# photos/ is deliberately NOT ignored. The original JPEGs were lost once already
+# (2026-08-01) because they existed in exactly one place. Tracking them is worth
+# the repo size until there is a real backup.
+
+# One-off analysis scripts. Kept on disk, not in history.
+scratch-*.mjs
+.vercel
+.env*
+# ...but the template must be tracked. It documents the required variables and
+# carries no values.
+!.env.example
+
+# Original photographs are deliberately NOT ignored, same reasoning as photos/.
+# They are the only copy, they are consented (photos/CONSENT.md), and the WebPs
+# in photos/web are downsampled and cannot be re-cropped or re-encoded larger.
+# ~48 MB, which is worth it. This repo must stay PRIVATE: it carries the
+# operator's identity, their registration numbers and consent records.

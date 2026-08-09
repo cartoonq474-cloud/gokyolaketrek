@@ -1,0 +1,18 @@
+{
+  "brandBlurb": "A Kathmandu-based trekking team taking small groups into the Gokyo valley. Government registered and affiliated with the Nepal Tourism Board, TAAN, NMA and KEEP, with over a decade in the Himalayas.",
+  "trekLinksHeading": "This trek",
+  "operatorLinksHeading": "The operator",
+  "contactHeading": "Contact Us",
+  "licensedByLabel": "Licensed by",
+  "licensedByText": "Nepal Tourism Board · TAAN · NMA · KEEP",
+  "copyrightSuffix": "Gokyo Lake Trek. All Rights Reserved.",
+  "newsletter": {
+    "heading": "Get the free Nepal trekking planner",
+    "subtext": "Honest season tips, kit lists and early access to small-group departures. No spam.",
+    "placeholder": "you@email.com",
+    "buttonLabel": "Subscribe",
+    "submittingLabel": "...",
+    "successLabel": "Thanks, you're subscribed!",
+    "errorLabel": "Something went wrong. Please try again."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "gokyolaketrek",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.34.4",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit && node scripts/check-no-emdash.mjs && node scripts/check-jsx-spacing.mjs",
+    "check:dashes": "node scripts/check-no-emdash.mjs",
+    "check:spacing": "node scripts/check-jsx-spacing.mjs",
+    "photos": "bash scripts/photos-to-webp.sh",
+    "brand": "bash scripts/build-brand-assets.sh"
+  },
+  "dependencies": {
+    "@6ktreks/ui": "workspace:*",
+    "lucide-react": "^1.28.0",
+    "next": "16.2.12",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.7.0"
+  }
+}
