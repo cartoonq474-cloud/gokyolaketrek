@@ -8,6 +8,7 @@ dist
 .env*.local
 .playwright-mcp
 tsconfig.tsbuildinfo
+.claude/
 
 # photos/ is deliberately NOT ignored. The original JPEGs were lost once already
 # (2026-08-01) because they existed in exactly one place. Tracking them is worth

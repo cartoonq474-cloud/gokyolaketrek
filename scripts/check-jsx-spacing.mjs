@@ -25,9 +25,10 @@
  */
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join, extname, relative } from "node:path";
+import { fileURLToPath } from "node:url";
 import ts from "typescript";
 
-const ROOT = new URL("..", import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL("..", import.meta.url));
 const SKIP_DIRS = new Set(["node_modules", ".next", ".git", ".vercel", "dist", "build"]);
 const CHECK_EXT = new Set([".tsx", ".jsx"]);
 
